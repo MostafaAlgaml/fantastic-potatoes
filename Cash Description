@@ -1,0 +1,22 @@
+# 🪙 Cash – CS50 Week 1
+
+## Description
+This program calculates the *minimum number of coins* required to give a user change for a given amount of dollars.
+
+It:
+- Prompts the user for a *non-negative float* (e.g. 0.41)
+- Converts it into *cents*
+- Determines the fewest number of coins needed using U.S. denominations:
+  - 25¢ (quarter)
+  - 10¢ (dime)
+  - 5¢ (nickel)
+  - 1¢ (penny)
+
+---
+
+## Example Usage
+
+```bash
+$ ./cash
+Change owed: 0.41
+4
