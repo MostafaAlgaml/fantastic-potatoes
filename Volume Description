@@ -1,0 +1,20 @@
+🔊 Volume – CS50 Week 4
+
+## Description
+This program increases or decreases the *volume of a .wav audio file* by a given factor.
+
+It:
+- Accepts three command-line arguments:
+  1. Input filename (.wav)
+  2. Output filename (.wav)
+  3. A *scaling factor* (e.g. 0.5 to reduce volume, 2.0 to double it)
+- Reads and preserves the *WAV file header*
+- Multiplies each audio sample by the volume factor
+- Writes the adjusted audio data to a new file
+
+---
+
+## Example Usage
+
+```bash
+$ ./volume input.wav output.wav 2.0
