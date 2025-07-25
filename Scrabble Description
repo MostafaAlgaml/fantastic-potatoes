@@ -1,0 +1,20 @@
+ 🔠 Scrabble – CS50 Week 2
+
+## Description
+This program simulates a simple *Scrabble* game between two players.
+
+Each player enters a word, and the program calculates the *Scrabble score* of each word based on the value of each letter. The player with the higher score wins — or the game is declared a tie if scores are equal.
+
+---
+
+## Letter Points
+Each letter has a predefined point value (like in the real Scrabble game):
+--
+
+## Example Usage
+
+```bash
+$ ./scrabble
+Player 1: Hello
+Player 2: World
+Player 2 wins!
