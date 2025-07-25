@@ -1,0 +1,25 @@
+# 📚 Readability 
+
+## Description
+This program calculates the *reading grade level* of a piece of text using the *Coleman-Liau index* — a formula used to estimate the U.S. school grade required to understand the text.
+
+The program:
+- Prompts the user for a block of *text*
+- Counts the number of *letters, **words, and **sentences*
+- Applies the Coleman-Liau formula:
+- L = average number of letters per 100 words  
+- S = average number of sentences per 100 words
+
+- Prints the *grade level*:
+- "Grade X" if between 1–16
+- "Before Grade 1" if below 1
+- "Grade 16+" if above 16
+
+---
+
+## Example Usage
+
+```bash
+$ ./readability
+Text: Congratulations! Today is your day. You're off to Great Places! You're off and away!
+Grade 3
