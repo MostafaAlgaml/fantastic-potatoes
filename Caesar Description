@@ -1,0 +1,19 @@
+# 🔐 Caesar – CS50 Week 2
+
+## Description
+This program implements the *Caesar cipher*, a simple encryption algorithm that shifts each letter in a plaintext message by a fixed number of positions in the alphabet.
+
+The program:
+- Accepts a *numeric key* as a command-line argument
+- Prompts the user for *plaintext*
+- Outputs the *ciphertext*, where each letter is shifted by the given key
+- Preserves letter *casing* and leaves non-alphabetic characters unchanged
+
+---
+
+## Example Usage
+
+```bash
+$ ./caesar 3
+plaintext:  Hello, World!
+ciphertext: Khoor, Zruog!
