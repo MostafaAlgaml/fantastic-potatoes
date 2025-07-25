@@ -1,3 +1,0 @@
-- mario.c: Generates pyramids like in Super Mario using loops
-- caesar.c: Encrypts text using the Caesar cipher 
-- cash.c: Calculates minimum coins for change 

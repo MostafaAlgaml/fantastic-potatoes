@@ -1,0 +1,17 @@
+# 🧱 Mario – CS50 Week 1
+
+## Description
+This program recreates the iconic *Super Mario-style pyramid* using hashes (#) and user input.  
+It asks the user to enter a height (1–8), and then prints either:
+
+- A *right-aligned half-pyramid* (Mario Less)
+- Or a *full pyramid with a gap in the middle* (Mario More)
+
+Both are built using *nested loops* and *basic control structures* in C.
+
+---
+
+## Versions
+
+### 🧱 Mario Less (Right-Aligned)
+Example for height = 4:
