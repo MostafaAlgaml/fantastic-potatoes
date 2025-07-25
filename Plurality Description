@@ -1,0 +1,25 @@
+ 🗳️ Plurality 
+
+## Description
+This program implements a simple *plurality voting system, where the candidate with the **most votes wins*.
+
+The program:
+- Accepts candidate names via command-line arguments
+- Prompts the user for the number of voters
+- Collects each voter's choice
+- Validates the vote and updates totals
+- Prints the name(s) of the winning candidate(s)
+
+If two or more candidates receive the same highest number of votes, *all are declared winners* (tie-handling included).
+
+---
+
+## Example Usage
+
+```bash
+$ ./plurality Alice Bob Charlie
+Number of voters: 3
+Vote: Alice
+Vote: Bob
+Vote: Alice
+Alice
